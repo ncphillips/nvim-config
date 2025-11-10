@@ -8,7 +8,9 @@ return {
     -- Setup mason-lspconfig
     require("mason-lspconfig").setup({
       ensure_installed = {
-        "intelephense", -- PHP language server
+        "php",
+        "vue",
+        "typescript",
       },
       automatic_installation = true,
     })

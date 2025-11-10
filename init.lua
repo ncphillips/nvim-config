@@ -4,6 +4,10 @@ require("config.tabsize")
 local fzf = require('fzf-lua')
 local tree = require('nvim-tree.api')
 
+
+vim.opt.number = true
+vim.opt.wrap = false
+
 -----------------
 -- Keybindings --
 -----------------
